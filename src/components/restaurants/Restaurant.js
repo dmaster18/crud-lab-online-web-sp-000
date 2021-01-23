@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReviewsContainer from '../../containers/ReviewsContainer'
+import ReviewsContainer from '../../containers/ReviewsContainer';
 
 class Restaurant extends Component {
 
@@ -8,12 +8,14 @@ class Restaurant extends Component {
   }
 
   render() {
+    const { restaurant } = this.props;
+
     return (
       <div>
         <li>
-          {this.props.text}
+          {restaurant.text}
           <button onClick={() => this.handleOnClick()}> X </button>
-          <ReviewsContainer restaurant={this.props}/>
+          <ReviewsContainer restaurant={restaurant}/>
         </li>
       </div>
     );
