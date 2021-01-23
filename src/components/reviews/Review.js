@@ -8,9 +8,7 @@ class Review extends Component {
   render() {
     return (
       <div>
-        <li>
-          {this.props.review.text}
-        </li>
+        <li> {this.props.review.text}</li>
         <button onClick={this.handleOnClick}> x </button>
       </div>
     );
