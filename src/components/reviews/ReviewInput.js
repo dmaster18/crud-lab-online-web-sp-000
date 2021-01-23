@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 class ReviewInput extends Component {
-
   state = {
     text: ''
   }
