@@ -14,9 +14,7 @@ class Reviews extends Component {
 
     return (
       <div>
-        <ul>
-          {reviewList}
-        </ul>
+        <ul> {reviewList} </ul>
       </div>
     );
   }
