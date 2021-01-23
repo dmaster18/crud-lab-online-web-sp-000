@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import {connect} from 'react-redux'
 import ReviewInput from '../components/reviews/ReviewInput'
 import Reviews from '../components/reviews/Reviews'
-import {connect} from 'react-redux'
+
 
 class ReviewsContainer extends Component {
   render() {
